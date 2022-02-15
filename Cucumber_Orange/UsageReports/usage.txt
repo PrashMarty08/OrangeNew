@@ -1,0 +1,96 @@
+[
+  {
+    "source": "User is on the Dashboard Page",
+    "steps": [
+      {
+        "name": "User is on the Dashboard Page",
+        "aggregatedDurations": {
+          "median": 0.01198945,
+          "average": 0.01198945
+        },
+        "durations": [
+          {
+            "duration": 0.01599,
+            "location": "file:///C:/Users/Admin/git/OrangeHRM/Cucumber_Orange/src/test/resources/Features/dashboard.feature:4"
+          },
+          {
+            "duration": 0.0079889,
+            "location": "file:///C:/Users/Admin/git/OrangeHRM/Cucumber_Orange/src/test/resources/Features/dashboard.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on the Directory menu",
+    "steps": [
+      {
+        "name": "User clicks on the Directory menu",
+        "aggregatedDurations": {
+          "median": 6.1860435,
+          "average": 6.1860435
+        },
+        "durations": [
+          {
+            "duration": 6.1860435,
+            "location": "file:///C:/Users/Admin/git/OrangeHRM/Cucumber_Orange/src/test/resources/Features/dashboard.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Directory Page should be displayed",
+    "steps": [
+      {
+        "name": "Directory Page should be displayed",
+        "aggregatedDurations": {
+          "median": 0.0109867,
+          "average": 0.0109867
+        },
+        "durations": [
+          {
+            "duration": 0.0109867,
+            "location": "file:///C:/Users/Admin/git/OrangeHRM/Cucumber_Orange/src/test/resources/Features/dashboard.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Quick Launch section should be displayed",
+    "steps": [
+      {
+        "name": "Quick Launch section should be displayed",
+        "aggregatedDurations": {
+          "median": 0.0401007,
+          "average": 0.0401007
+        },
+        "durations": [
+          {
+            "duration": 0.0401007,
+            "location": "file:///C:/Users/Admin/git/OrangeHRM/Cucumber_Orange/src/test/resources/Features/dashboard.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Quick Launch section should have the below links",
+    "steps": [
+      {
+        "name": "Quick Launch section should have the below links",
+        "aggregatedDurations": {
+          "median": 1.5622354,
+          "average": 1.5622354
+        },
+        "durations": [
+          {
+            "duration": 1.5622354,
+            "location": "file:///C:/Users/Admin/git/OrangeHRM/Cucumber_Orange/src/test/resources/Features/dashboard.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

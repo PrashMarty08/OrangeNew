@@ -1,0 +1,228 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-15T17:39:22.371Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11811107400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.initDriver2(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Directory Page should be displayed on clicking Directory Menu",
+        "description": "",
+        "id": "dashboard-feature;directory-page-should-be-displayed-on-clicking-directory-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 707674900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15990000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Dashboard Page",
+            "match": {
+              "location": "stepDefinitions.DashboardPageStepDef.user_is_on_the_dashboard_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6186043500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the Directory menu",
+            "match": {
+              "location": "stepDefinitions.DashboardPageStepDef.user_clicks_on_the_directory_menu()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10986700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Directory Page should be displayed",
+            "match": {
+              "location": "stepDefinitions.DashboardPageStepDef.directory_page_should_be_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-15T17:39:41.281Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9246748000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.initDriver2(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate the Quick Launch Links",
+        "description": "",
+        "id": "dashboard-feature;validate-the-quick-launch-links",
+        "after": [
+          {
+            "result": {
+              "duration": 704104400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7988900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the Dashboard Page",
+            "match": {
+              "location": "stepDefinitions.DashboardPageStepDef.user_is_on_the_dashboard_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40100700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Quick Launch section should be displayed",
+            "match": {
+              "location": "stepDefinitions.DashboardPageStepDef.quick_launch_section_should_be_displayed()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1562235400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Quick Launch section should have the below links",
+            "match": {
+              "location": "stepDefinitions.DashboardPageStepDef.quick_launch_section_should_have_the_below_links(io.cucumber.datatable.DataTable)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1003700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.attachScreenshot(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "Assign Leave",
+                  "Leave List",
+                  "Timesheets",
+                  "Apply Leave",
+                  "My Leave",
+                  "My Timesheet"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard Feature",
+    "description": "",
+    "id": "dashboard-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/dashboard.feature",
+    "tags": []
+  }
+]
